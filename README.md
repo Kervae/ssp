@@ -1,6 +1,7 @@
 # ssp
 
 In order to make the world a better place, I just crack it.
+
 Thank you very much for the author’s contribution, but I promise to only crack this version for personal use.
 
 ### Install script
