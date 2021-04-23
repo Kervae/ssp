@@ -35,5 +35,8 @@ bash <(curl -L https://bit.ly/3etWrhV)
 
 ### Donate
 
+```
 BTC: 3P1eCGPkEt3du5R7v927oWxsA1bckoeZym
+
 USDT-TRC20: TXugrhL8ecDtxBLGUvviQ1KPaavZ7W3iZw
+```
