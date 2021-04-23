@@ -1,6 +1,9 @@
 # ssp
 
-### 系统直接安装
+In order to make the world a better place, I just crack it.
+Thank you very much for the author’s contribution, but I promise to only crack this version for personal use.
+
+### Install script
 
 ```
 (yum install curl 2> /dev/null || apt install curl 2> /dev/null) && \
@@ -17,10 +20,10 @@ log_level="error" \
 bash <(curl -L https://bit.ly/3etWrhV)
 ```
 
-### 配置文件 `/etc/ssp/config.ini`
+### Configuration file:  `/etc/ssp/config.ini`
 
 
-### 操作命令
+### Commands
 
 | Function | command | 
 |------------|--------|
@@ -29,3 +32,8 @@ bash <(curl -L https://bit.ly/3etWrhV)
 | Stop  | `systemctl stop ssp` |
 | Start  | `systemctl start ssp` |
 | Restart  | `systemctl restart ssp` |
+
+### Donate
+
+BTC: 3P1eCGPkEt3du5R7v927oWxsA1bckoeZym
+USDT-TRC20: TXugrhL8ecDtxBLGUvviQ1KPaavZ7W3iZw
