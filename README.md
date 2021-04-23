@@ -1,6 +1,6 @@
 # ssp
 
-In order to make the world a better place, I just crack it.
+In order to make the world a better place, I just crack it.(only support the **v2board** and **sspanel**)
 
 Thank you very much for the author’s contribution, but I promise to only crack this version for personal use.
 
