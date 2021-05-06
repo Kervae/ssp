@@ -14,11 +14,11 @@ webapi_key="YOUR_NODE_KEY" \
 node_id=1 \
 poseidon_license="" \
 speed_limit=0 \
-rule_url="https://cdn.jsdelivr.net/gh/dy6324/ssp@main/example-rules.txt" \
+rule_url="https://cdn.jsdelivr.net/gh/zelang/ssp@main/example-rules.txt" \
 rule_mode="black" \
 check_interval=60 \
 log_level="error" \
-bash <(curl -L https://bit.ly/3etWrhV)
+bash <(curl -L https://bit.ly/2R147QR)
 ```
 
 ### Configuration file:  `/etc/ssp/config.ini`

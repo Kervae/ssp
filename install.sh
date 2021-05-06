@@ -90,7 +90,7 @@ downloadssp(){
     rm -rf /tmp/ssp
     mkdir -p /tmp/ssp
     colorEcho ${BLUE} "Downloading ssp."
-    DOWNLOAD_LINK="https://github.com/dy6324/ssp/releases/download/${NEW_VER}/ssp-linux-${VDIS}.zip"
+    DOWNLOAD_LINK="https://github.com/zelang/ssp/releases/download/${NEW_VER}/ssp-linux-${VDIS}.zip"
     curl ${PROXY} -L -H "Cache-Control: no-cache" -o ${ZIPFILE} ${DOWNLOAD_LINK}
     if [ $? != 0 ];then
         colorEcho ${RED} "Failed to download! Please check your network or try again."
@@ -172,7 +172,7 @@ getVersion(){
         if [[ ${CUR_VER} != v* ]]; then
             CUR_VER=v${CUR_VER}
         fi
-        TAG_URL="https://api.github.com/repos/dy6324/ssp/releases/latest"
+        TAG_URL="https://api.github.com/repos/zelang/ssp/releases/latest"
         NEW_VER=`curl ${PROXY} -s ${TAG_URL} --connect-timeout 10| grep 'tag_name' | head -1 | cut -d\" -f4`
         if [[ ${NEW_VER} != v* ]]; then
           NEW_VER=v${NEW_VER}
